@@ -2,8 +2,8 @@ var login = require('facebook-chat-api');
 var handleMessage = require('./src/handleMessage.js');
 
 var userInfo = {
-    email: 'Your mail',
-    password: 'Your Password'
+    email: '',
+    password: ''
 };
 
 var timeout = undefined;
